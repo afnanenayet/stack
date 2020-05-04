@@ -337,7 +337,7 @@ commandLineHandler currentDir progName isInterpreter = complicatedOptions
                     evalCmd
                     (evalOptsParser "CODE")
         addCommand' "clean"
-                    "Delete build artefacts for the project packages."
+                    "Delete build artifacts for the project packages."
                     cleanCmd
                     (cleanOptsParser Clean)
         addCommand' "purge"
